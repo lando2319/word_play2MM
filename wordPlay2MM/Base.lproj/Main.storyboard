@@ -69,6 +69,9 @@
                                 <state key="normal" title="See Mad Lib">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lsA-j2-dqV" kind="show" id="gLO-Zb-srv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter an Adjective" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN3-6j-74N">
                                 <rect key="frame" x="230" y="200" width="140" height="21"/>
@@ -86,6 +89,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICc-16-kvi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2580" y="1132"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="2Gi-bl-hWq">
+            <objects>
+                <viewController id="lsA-j2-dqV" customClass="ResultsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NHl-Q5-Jzq"/>
+                        <viewControllerLayoutGuide type="bottom" id="hqn-Fh-1j5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZD5-Y6-jgC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ang-60-M98">
+                                <rect key="frame" x="252" y="285" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultsTextView" destination="ang-60-M98" id="ebl-Yn-fzR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVf-Wm-Xqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3239" y="1132"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">

@@ -17,6 +17,7 @@
 		CCB7926F19FDC96500DB5D70 /* wordPlay2MMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7926E19FDC96500DB5D70 /* wordPlay2MMTests.m */; };
 		CCB7927A19FDCDC000DB5D70 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7927919FDCDC000DB5D70 /* EnterNameViewController.m */; };
 		CCB7927D19FDCEF500DB5D70 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7927C19FDCEF500DB5D70 /* EnterAdjectiveViewController.m */; };
+		CCB7928019FDE59C00DB5D70 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7927F19FDE59C00DB5D70 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CCB7927919FDCDC000DB5D70 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
 		CCB7927B19FDCEF500DB5D70 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
 		CCB7927C19FDCEF500DB5D70 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		CCB7927E19FDE59C00DB5D70 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		CCB7927F19FDE59C00DB5D70 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				CCB7925C19FDC96500DB5D70 /* Main.storyboard */,
 				CCB7927B19FDCEF500DB5D70 /* EnterAdjectiveViewController.h */,
 				CCB7927C19FDCEF500DB5D70 /* EnterAdjectiveViewController.m */,
+				CCB7927E19FDE59C00DB5D70 /* ResultsViewController.h */,
+				CCB7927F19FDE59C00DB5D70 /* ResultsViewController.m */,
 				CCB7927819FDCDC000DB5D70 /* EnterNameViewController.h */,
 				CCB7927919FDCDC000DB5D70 /* EnterNameViewController.m */,
 				CCB7925F19FDC96500DB5D70 /* Images.xcassets */,
@@ -233,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB7927A19FDCDC000DB5D70 /* EnterNameViewController.m in Sources */,
+				CCB7928019FDE59C00DB5D70 /* ResultsViewController.m in Sources */,
 				CCB7925519FDC96500DB5D70 /* AppDelegate.m in Sources */,
 				CCB7925819FDC96500DB5D70 /* wordPlay2MM.xcdatamodeld in Sources */,
 				CCB7925B19FDC96500DB5D70 /* ViewController.m in Sources */,
